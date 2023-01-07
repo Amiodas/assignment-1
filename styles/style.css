@@ -1,0 +1,40 @@
+/* Common styles */
+* {
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+.section-button {
+    color: #ffffff;
+    background: #F15B22;
+    font-weight: 700;
+    padding: 20px 25px;
+    border: 0;
+    border-radius: 5px;
+}
+
+
+/* Banner Section Style */
+.banner-container {
+    background-image: url("../images/banner/banner1.png");
+    background-position: center;
+    background-size: cover;
+    height: 650px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 130px;
+}
+
+.banner {
+    text-align: right;
+    width: 500px;
+}
+
+.banner-title {
+    font-size: 56px;
+    margin-bottom: 20px;
+}
+.banner-description {
+    color:#444343;
+    margin-bottom: 20px;
+}
