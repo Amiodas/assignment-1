@@ -66,7 +66,7 @@ main {
 }
 .my-failures-list li {
   font-size: 18px;
-  /* list-style: none; */
+  list-style: none;
   margin-bottom: 15px;
 }
 
@@ -76,6 +76,7 @@ main {
   padding-bottom: 130px;
 }
 .my-plan-items {
+    width: 1100px;
   display: flex;
   justify-content: space-between;
   text-align: center;
@@ -85,6 +86,7 @@ main {
   color: #f15b22;
   margin-bottom: 60px;
   text-align: center;
+  margin-left: 120px;
 }
 .my-plan-items-title {
   margin-top: 20px;
@@ -93,6 +95,7 @@ main {
 .my-plan-items-subtitle {
   color: #444343;
 }
+
 
 /* Gradient image Styles */
 .gradient-image {
